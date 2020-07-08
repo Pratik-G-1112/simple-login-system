@@ -1,7 +1,7 @@
 
 from mysql.connector import MySQLConnection
 import mysql.connector
-Connection=mysql.connector.connect(host='127.0.0.1',user='root',password='kanishka12@AB',database='user_data')
+Connection=mysql.connector.connect(host='127.0.0.1',user='root',password='pl',database='user_data')
 cursor=Connection.cursor()
 
 class user:
