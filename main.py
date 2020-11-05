@@ -149,5 +149,6 @@ def customer_status_checker():
 
 
 
-customer_status_checker()
+if __name__=="__main__":
+    customer_status_checker()
 
